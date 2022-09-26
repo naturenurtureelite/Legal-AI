@@ -110,9 +110,9 @@ elif sys.argv[1]=="supervised":
 elif sys.argv[1]=="unsupervised":
 	a=["LexRankSummarizer","LuhnSummarizer","LsaSummarizer","ReductionSummarizer","DSDR","LetSum","KMM","CaseSummarizer","MMR","DELSumm"]
 elif sys.argv[1]=="all_methods":
-	a=["BERT","CaseSummarizer","ChineseGist","DELSumm","DSDR","KMM","LetSum","LexRankSummarizer","LsaSummarizer","LuhnSummarizer","MMR","ReductionSummarizer","SummaRuNNer/AttnRNN_F7_avr","SummaRuNNer/RNN_RNN_F7_avr","SummaRuNNer/CNN_RNN_F7_avr"]
+	a=["BERT1","CaseSummarizer","ChineseGist","DELSumm","DSDR","KMM","LetSum","LexRankSummarizer","LsaSummarizer","LuhnSummarizer","MMR","ReductionSummarizer","SummaRuNNer/AttnRNN_F7_avr","SummaRuNNer/RNN_RNN_F7_avr","SummaRuNNer/CNN_RNN_F7_avr"]
 elif sys.argv[1]=="top_4":
-	a=["SummaRuNNer/RNN_RNN_F7_avr","SummaRuNNer/AttnRNN_F7_avr","BERT","DELSumm"]
+	a=["SummaRuNNer/RNN_RNN_F7_avr","SummaRuNNer/AttnRNN_F7_avr","BERT1","DELSumm"]
 
 t=os.listdir("Full-Text-segments/India/")
 print(t)
