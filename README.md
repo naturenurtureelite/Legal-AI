@@ -1,7 +1,7 @@
 # Legal-AI
 
 **SIMPLE VOTING**
-**---------------------------------------------------------**
+------------------------------------------------------------------------------------
 
 For ensembling the supervised algorithms using simple voting please run,
 
