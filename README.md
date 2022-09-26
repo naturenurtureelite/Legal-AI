@@ -1,11 +1,15 @@
 # Legal-AI
 
 For running SImple Voting the instructions are as follows:-
+**---------------------------------------------------------**
 
 For ensembling the supervised algorithms please run,
 
 python tead25.py supervised
 
+python ranking_summaries.py unordered
+
+The results will be generated in ordered folder
 
 For ensembling the unsupervised domain independent algorithms please run,
 
