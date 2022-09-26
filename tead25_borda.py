@@ -45,7 +45,7 @@ if sys.argv[1]=="unsupervised_domain_independent":
 elif sys.argv[1]=="unsupervised_domain_specific":
 	a=["LetSum","KMM","CaseSummarizer","MMR","DELSumm"]
 elif sys.argv[1]=="supervised":
-	a=["Summarunner_AttnRNN","Summarunner_RNN_RNN","Summarunner_CNN_RNN","gist","BERT1"]
+	a=["Summarunner_AttnRNN","Summarunner_RNN_RNN","Summarunner_CNN_RNN","gist","BERT"]
 elif sys.argv[1]=="unsupervised":
 	a=["LexRankSummarizer","LuhnSummarizer","LsaSummarizer","ReductionSummarizer","DSDR","LetSum","KMM","CaseSummarizer","MMR","DELSumm"]
 elif sys.argv[1]=="all_methods":
