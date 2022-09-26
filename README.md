@@ -1,6 +1,7 @@
 # Legal-AI
 
 **SIMPLE VOTING**
+
 ------------------------------------------------------------------------------------
 
 For ensembling the supervised algorithms using simple voting please run,
@@ -251,6 +252,7 @@ The results will be generated in ordered folder
 
 
 **VECSIM_GREEDY_LENGTH**
+
 -------------------------------------------------------------------------------------------------------------------------
 For running Vecsim Greedy length the instructions are as follows:-
 
@@ -338,6 +340,7 @@ The results will be generated in ordered folder
 
 
 **VECSIM_ROUNDROBIN_LENGTH**
+
 ---------------------------------------------------------------------------------------------------------------------------
 For running Vecsim Roundrobin length the instructions are as follows:-
 
