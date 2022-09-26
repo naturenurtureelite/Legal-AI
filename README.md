@@ -164,7 +164,10 @@ The results will be generated in ordered folder
 
 
 ** RECIPROCAL RANKING **
---------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
+
+
 For running Reciprocal ranking the instructions are as follows:-
 
 For ensembling the supervised algorithms using reciprocal ranking please run,
