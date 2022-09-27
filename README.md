@@ -5,9 +5,13 @@ The are 15 summarization algorithms namely Lexrank,LSA, Luhn, Reduction, DSDR, L
 The supervised summarization algorithms are:-  SummaRunner/Attn_RNN, SummaRunner/CNN_RNN, SummaRunner/RNN_RNN, BERTSUM, Chinese Gist
 
 The unsupervised domain independent algorithms are:- Lexrank,LSA, Luhn, Reduction, DSDR
+
 The unsupervised domain specific algorithms are:-  LetSum, KMM, DSDR, DELSumm, Case Summarizer
+
 The unsupervised algorithms are:- Lexrank,LSA, Luhn, Reduction, DSDR, LetSum, KMM, DSDR, DELSumm, Case Summarizer
+
 The supervised algorithms are:-SummaRunner/Attn_RNN, SummaRunner/CNN_RNN, SummaRunner/RNN_RNN, BERTSUM, Chinese Gist
+
 The top 4 summarization algorithms are:- BERTSUM, SummaRunner/Attn_RNN, SummaRunner/RNN_RNN and DELSumm
 
 
