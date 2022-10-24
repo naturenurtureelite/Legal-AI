@@ -94,7 +94,21 @@ last2=0.0
 total_length=0.0
 #list of all possible summarization algorithms
 #a=["ChineseGist"]
-a=["BERT","DELSumm","SummaRuNNer/AttnRNN_F7_avr","SummaRuNNer/RNN_RNN_F7_avr"]
+
+if sys.argv[1]=="unsupervised_domain_independent":
+	a=["LexRankSummarizer","LuhnSummarizer","LsaSummarizer","ReductionSummarizer","DSDR"]
+elif sys.argv[1]=="unsupervised_domain_specific":
+	a=["LetSum","KMM","CaseSummarizer","MMR","DELSumm"]
+elif sys.argv[1]=="supervised":
+	a=["SummaRuNNer/AttnRNN_F7_avr","SummaRuNNer/RNN_RNN_F7_avr","SummaRuNNer/CNN_RNN_F7_avr","ChineseGist","BERT"]
+elif sys.argv[1]=="unsupervised":
+	a=["LexRankSummarizer","LuhnSummarizer","LsaSummarizer","ReductionSummarizer","DSDR","LetSum","KMM","CaseSummarizer","MMR","DELSumm"]
+elif sys.argv[1]=="all_methods":
+	a=["BERT","CaseSummarizer","ChineseGist","DELSumm","DSDR","KMM","LetSum","LexRankSummarizer","LsaSummarizer","LuhnSummarizer","MMR","ReductionSummarizer","SummaRuNNer/AttnRNN_F7_avr","SummaRuNNer/RNN_RNN_F7_avr","SummaRuNNer/CNN_RNN_F7_avr"]
+elif sys.argv[1]=="top_4":
+	a=["SummaRuNNer/RNN_RNN_F7_avr","SummaRuNNer/AttnRNN_F7_avr","BERT","DELSumm"]
+
+#a=["BERT","DELSumm","SummaRuNNer/AttnRNN_F7_avr","SummaRuNNer/RNN_RNN_F7_avr"]
 #a=["DELSumm","MMR","CaseSummarizer","LetSum","KMM"]
 #a=["LexRankSummarizer","LuhnSummarizer","LsaSummarizer","ReductionSummarizer","DSDR","DELSumm","MMR","CaseSummarizer","LetSum","KMM"]
 #"DELSumm","MMR","CaseSummarizer","LetSum","KMM"]
@@ -154,7 +168,7 @@ for i in range(0,50):
 	
 	v6=[]
 	v10=[]
-	for j in range(0,4):
+	for j in range(0,len(a)):
 
 			#open a particular file and read
 			file1 = open("Algo-Summaries/India/"+a[j]+'/'+t[i], 'r')
@@ -198,7 +212,7 @@ for i in range(0,50):
 	counter=[]
 	v10=sorted(list(set(v10)))
 	for j in range(0,len(v10)):
-		for jj in range(0,4):
+		for jj in range(0,len(a)):
 			counter.append(0)
 		count.append(counter)
 		counter=[]
@@ -207,7 +221,7 @@ for i in range(0,50):
 	#print(count[0])
 	v=[]
 	v8=[]
-	for j in range(0,4):
+	for j in range(0,len(a)):
 
 			#open a particular file and read
 			file1 = open("Algo-Summaries/India/"+a[j]+'/'+t[i], 'r')
@@ -257,7 +271,7 @@ for i in range(0,50):
 				for l in range(0,len(count[k])):
 					if count[j][l]==1 and count[k][l]==1:
 						value=value+1
-			if float(value)>=3.0:
+			if float(value)>=((len(a)/2)+1):
 				g.addEdge(j, k)
 	tempo=""
 	pos=-1
