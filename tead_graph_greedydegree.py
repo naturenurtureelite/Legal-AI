@@ -293,7 +293,7 @@ for i in range(0,50):
 	#print(connect)
 	no_of_words=0
 	ttt=[]
-	file5 = open("Method6/"+str(t[i]), 'a+')
+	file5 = open("unordered/"+str(t[i]), 'a+')
 	for l in range(0,len(components)):
 		for k in range(0,len(components[l])):
 			parsed = nlp(v10[components[l][k]])
