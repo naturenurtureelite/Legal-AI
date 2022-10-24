@@ -286,7 +286,7 @@ for i in range(0,50):
 	for j in range(0,len(ttt)):
 		connect.append(ttt[j][0])
 	print(t[i])
-	file5 = open("Method6/"+str(t[i]), 'a+')
+	file5 = open("unordered/"+str(t[i]), 'a+')
 	for p in range(0,10):
 		for j in range(0,len(connect)):
 			for k in range(0,len(connect[j])):
