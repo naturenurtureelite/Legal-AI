@@ -3,8 +3,11 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 **DATASET for IN-Ext dataset **
+
 The 50 Original documents in the IN-Ext dataset is available in Full-Text/India.
+
 The Expert written gold standard summaries is available in Expert-Summaries/India.
+
 The Algorithm generated summaries is available at Algo-Summaries/India. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
