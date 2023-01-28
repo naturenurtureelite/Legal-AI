@@ -8,6 +8,8 @@ The 50 Original documents in the IN-Ext dataset is available in Full-Text/India.
 
 The Expert written gold standard summaries is available in Expert-Summaries/India.
 
+There are two expert written summaries corresponding to every original document.
+
 The Algorithm generated summaries is available at Algo-Summaries/India. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
