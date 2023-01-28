@@ -12,6 +12,8 @@ There are two expert written summaries corresponding to every original document 
 
 The Algorithm generated summaries is available at Algo-Summaries/India. 
 
+The expert written summaries are of length atmost 1/3rd of the length of the original documents.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -25,7 +27,7 @@ The Expert written gold standard summaries is available in test-data/summary.
 
 There is one abstractive gold standard summary corresponding to every document.
 
-The first column in Stats-IN-test.txt gives filename, second column gives no of words in original document, third column gives no of words in the expert written summary.
+The first column in test-data/Stats-IN-test.txt gives filename, second column gives no of words in original document, third column gives no of words in the expert written summary.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
