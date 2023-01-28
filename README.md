@@ -8,13 +8,26 @@ The 50 Original documents in the IN-Ext dataset is available in Full-Text/India.
 
 The Expert written gold standard summaries is available in Expert-Summaries/India.
 
-There are two expert written summaries corresponding to every original document.
+There are two expert written summaries corresponding to every original document in two folders named A1 and A2 written by two independent legal experts.
 
 The Algorithm generated summaries is available at Algo-Summaries/India. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+**DATASET for IN-Abs dataset**
+
+The 100 Original documents in the IN-Abs dataset is available in test-data/judgement.
+
+The Expert written gold standard summaries is available in test-data/summary.
+
+There is one abstractive gold standard summary corresponding to every document.
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 The are 15 summarization algorithms namely Lexrank,LSA, Luhn, Reduction, DSDR, LetSum, KMM, DSDR, DELSumm, Case Summarizer, SummaRunner/Attn_RNN, SummaRunner/CNN_RNN, SummaRunner/RNN_RNN, BERTSUM, Chinese Gist
 
