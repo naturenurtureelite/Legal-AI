@@ -730,41 +730,14 @@ The results will be generated in **ordered** folder
 
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**VECSIM_GREEDY_DEGREE**
+**HITS_HUB**
 
 ---------------------------------------------------------------------------------------------------------------------------
 For running **Vecsim Greedy degree** the instructions are as follows:-
 
-For ensembling the **supervised algorithms** using **Vecsim Greedy degree** please run,
+For ensembling the **supervised algorithms** using **HITS HUB SCORE** please run,
 
-**python tead_graph_greedydegree.py supervised**
-
-**python ranking_summaries.py unordered**
-
-The results will be generated in **ordered** folder
-
-
-------------------------------------------------------------------------------------
-
-
-
-
-For ensembling the **unsupervised domain independent algorithms** using **Vecsim Greedy degree** please run,
-
-**python tead_graph_greedydegree.py unsupervised_domain_independent**
-
-**python ranking_summaries.py unordered**
-
-The results will be generated in **ordered** folder
-
-
-------------------------------------------------------------------------------------
-
-
-
-For ensembling the **unsupervised_domain_specific algorithms** using **Vecsim Greedy Degree** please run,
-
-**python tead_graph_greedydegree.py unsupervised_domain_specific**
+**python tead_hitshub.py supervised**
 
 **python ranking_summaries.py unordered**
 
@@ -776,7 +749,34 @@ The results will be generated in **ordered** folder
 
 
 
-For ensembling the **unsupervised algorithms** using **Vecsim Greedy Degree** please run,
+For ensembling the **unsupervised domain independent algorithms** using **HITS HUB SCORE** please run,
+
+**python tead_hitshub.py unsupervised_domain_independent**
+
+**python ranking_summaries.py unordered**
+
+The results will be generated in **ordered** folder
+
+
+------------------------------------------------------------------------------------
+
+
+
+For ensembling the **unsupervised_domain_specific algorithms** using **HITS HUB SCORE** please run,
+
+**python tead_hitshub.py unsupervised_domain_specific**
+
+**python ranking_summaries.py unordered**
+
+The results will be generated in **ordered** folder
+
+
+------------------------------------------------------------------------------------
+
+
+
+
+For ensembling the **unsupervised algorithms** using **HITS HUB SCORE** please run,
 
 **python tead_graph_greedydegree.py unsupervised**
 
@@ -790,7 +790,7 @@ The results will be generated in **ordered** folder
 
 
 
-For ensembling the **Top 4 best performing summarization algorithms** using **Vecsim Greedy Degree** please run,
+For ensembling the **Top 4 best performing summarization algorithms** using **HITS HUB SCORE** please run,
 
 **python tead_graph_greedydegree.py top_4**
 
@@ -803,7 +803,7 @@ The results will be generated in **ordered** folder
 
 
 
-For ensembling the **all 15 summarization algorithms** using **Vecsim Greedy Degree** please run,
+For ensembling the **all 15 summarization algorithms** using **HITS HUB SCORE** please run,
 
 **python tead_graph_greedydegree.py all_methods**
 
@@ -815,41 +815,14 @@ The results will be generated in **ordered** folder
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
-**VECSIM_GREEDY_DEGREE**
+**HITS AUTHORITY**
 
 ---------------------------------------------------------------------------------------------------------------------------
-For running **Vecsim Greedy degree** the instructions are as follows:-
+For running **HITS authority** the instructions are as follows:-
 
-For ensembling the **supervised algorithms** using **Vecsim Greedy degree** please run,
+For ensembling the **supervised algorithms** using **hits authority score** please run,
 
-**python tead_graph_greedydegree.py supervised**
-
-**python ranking_summaries.py unordered**
-
-The results will be generated in **ordered** folder
-
-
-------------------------------------------------------------------------------------
-
-
-
-
-For ensembling the **unsupervised domain independent algorithms** using **Vecsim Greedy degree** please run,
-
-**python tead_graph_greedydegree.py unsupervised_domain_independent**
-
-**python ranking_summaries.py unordered**
-
-The results will be generated in **ordered** folder
-
-
-------------------------------------------------------------------------------------
-
-
-
-For ensembling the **unsupervised_domain_specific algorithms** using **Vecsim Greedy Degree** please run,
-
-**python tead_graph_greedydegree.py unsupervised_domain_specific**
+**python tead_graph_hitsauthority.py supervised**
 
 **python ranking_summaries.py unordered**
 
@@ -861,9 +834,22 @@ The results will be generated in **ordered** folder
 
 
 
-For ensembling the **unsupervised algorithms** using **Vecsim Greedy Degree** please run,
+For ensembling the **unsupervised domain independent algorithms** using **hits authority score** please run,
 
-**python tead_graph_greedydegree.py unsupervised**
+**python tead_graph_hitsauthority.py unsupervised_domain_independent**
+
+**python ranking_summaries.py unordered**
+
+The results will be generated in **ordered** folder
+
+
+------------------------------------------------------------------------------------
+
+
+
+For ensembling the **unsupervised_domain_specific algorithms** using **hits authority score** please run,
+
+**python tead_graph_hitsauthority.py unsupervised_domain_specific**
 
 **python ranking_summaries.py unordered**
 
@@ -875,9 +861,9 @@ The results will be generated in **ordered** folder
 
 
 
-For ensembling the **Top 4 best performing summarization algorithms** using **Vecsim Greedy Degree** please run,
+For ensembling the **unsupervised algorithms** using **hits authority score** please run,
 
-**python tead_graph_greedydegree.py top_4**
+**python tead_graph_hitsauthority.py unsupervised**
 
 **python ranking_summaries.py unordered**
 
@@ -888,9 +874,23 @@ The results will be generated in **ordered** folder
 
 
 
-For ensembling the **all 15 summarization algorithms** using **Vecsim Greedy Degree** please run,
 
-**python tead_graph_greedydegree.py all_methods**
+For ensembling the **Top 4 best performing summarization algorithms** using **hits authority score** please run,
+
+**python tead_graph_hitsauthority.py top_4**
+
+**python ranking_summaries.py unordered**
+
+The results will be generated in **ordered** folder
+
+
+------------------------------------------------------------------------------------
+
+
+
+For ensembling the **all 15 summarization algorithms** using **hits authority score** please run,
+
+**python tead_graph_hitsauthority.py all_methods**
 
 **python ranking_summaries.py unordered**
 
