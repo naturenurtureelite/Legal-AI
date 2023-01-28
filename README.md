@@ -1,5 +1,16 @@
 # Legal-AI
 
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+**DATASET for IN-Ext dataset **
+The 50 Original documents in the IN-Ext dataset is available in Full-Text/India.
+The Expert written gold standard summaries is available in Expert-Summaries/India.
+The Algorithm generated summaries is available at Algo-Summaries/India. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 The are 15 summarization algorithms namely Lexrank,LSA, Luhn, Reduction, DSDR, LetSum, KMM, DSDR, DELSumm, Case Summarizer, SummaRunner/Attn_RNN, SummaRunner/CNN_RNN, SummaRunner/RNN_RNN, BERTSUM, Chinese Gist
 
 The supervised summarization algorithms are:-  SummaRunner/Attn_RNN, SummaRunner/CNN_RNN, SummaRunner/RNN_RNN, BERTSUM, Chinese Gist
@@ -15,11 +26,6 @@ The supervised algorithms are:-SummaRunner/Attn_RNN, SummaRunner/CNN_RNN, SummaR
 The top 4 summarization algorithms are:- BERTSUM, SummaRunner/Attn_RNN, SummaRunner/RNN_RNN and DELSumm
 
 The various ensembling techniques tried are- **Simple Voting, Borda Count, Reciprocal Ranking, Vecsim-Greedy-Length, Vecsim-Greedy-Degree.**
----------------------------------------------------------------------------------------------------------------------------------------------
-**DATASET for IN-Ext dataset **
-The 50 Original documents in the IN-Ext dataset is available in Full-Text/India.
-The Expert written gold standard summaries is available in Expert-Summaries/India.
-The Algorithm generated summaries is available at Algo-Summaries/India. 
 
 
 
