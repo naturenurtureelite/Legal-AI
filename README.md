@@ -646,41 +646,14 @@ The results will be generated in **ordered** folder
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
-**VECSIM_GREEDY_DEGREE**
+**PAGERANK**
 
 ---------------------------------------------------------------------------------------------------------------------------
-For running **Vecsim Greedy degree** the instructions are as follows:-
+For running **Pagerank** the instructions are as follows:-
 
-For ensembling the **supervised algorithms** using **Vecsim Greedy degree** please run,
+For ensembling the **supervised algorithms** using **pagerank** please run,
 
-**python tead_graph_greedydegree.py supervised**
-
-**python ranking_summaries.py unordered**
-
-The results will be generated in **ordered** folder
-
-
-------------------------------------------------------------------------------------
-
-
-
-
-For ensembling the **unsupervised domain independent algorithms** using **Vecsim Greedy degree** please run,
-
-**python tead_graph_greedydegree.py unsupervised_domain_independent**
-
-**python ranking_summaries.py unordered**
-
-The results will be generated in **ordered** folder
-
-
-------------------------------------------------------------------------------------
-
-
-
-For ensembling the **unsupervised_domain_specific algorithms** using **Vecsim Greedy Degree** please run,
-
-**python tead_graph_greedydegree.py unsupervised_domain_specific**
+**python tead_graph_pagerank.py supervised**
 
 **python ranking_summaries.py unordered**
 
@@ -692,9 +665,22 @@ The results will be generated in **ordered** folder
 
 
 
-For ensembling the **unsupervised algorithms** using **Vecsim Greedy Degree** please run,
+For ensembling the **unsupervised domain independent algorithms** using **Pagerank** please run,
 
-**python tead_graph_greedydegree.py unsupervised**
+**python tead_graph_pagerank.py unsupervised_domain_independent**
+
+**python ranking_summaries.py unordered**
+
+The results will be generated in **ordered** folder
+
+
+------------------------------------------------------------------------------------
+
+
+
+For ensembling the **unsupervised_domain_specific algorithms** using **Pagerank** please run,
+
+**python tead_graph_pagerank.py unsupervised_domain_specific**
 
 **python ranking_summaries.py unordered**
 
@@ -706,9 +692,9 @@ The results will be generated in **ordered** folder
 
 
 
-For ensembling the **Top 4 best performing summarization algorithms** using **Vecsim Greedy Degree** please run,
+For ensembling the **unsupervised algorithms** using **Pagerank** please run,
 
-**python tead_graph_greedydegree.py top_4**
+**python tead_graph_pagerank.py unsupervised**
 
 **python ranking_summaries.py unordered**
 
@@ -719,9 +705,23 @@ The results will be generated in **ordered** folder
 
 
 
-For ensembling the **all 15 summarization algorithms** using **Vecsim Greedy Degree** please run,
 
-**python tead_graph_greedydegree.py all_methods**
+For ensembling the **Top 4 best performing summarization algorithms** using **Pagerank** please run,
+
+**python tead_graph_pagerank.py top_4**
+
+**python ranking_summaries.py unordered**
+
+The results will be generated in **ordered** folder
+
+
+------------------------------------------------------------------------------------
+
+
+
+For ensembling the **all 15 summarization algorithms** using **Pagerank** please run,
+
+**python tead_graph_pagerank.py all_methods**
 
 **python ranking_summaries.py unordered**
 
@@ -900,41 +900,14 @@ The results will be generated in **ordered** folder
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
-**VECSIM_GREEDY_DEGREE**
+**NODE2VEC**
 
 ---------------------------------------------------------------------------------------------------------------------------
-For running **Vecsim Greedy degree** the instructions are as follows:-
+For running **Node2vec** the instructions are as follows:-
 
-For ensembling the **supervised algorithms** using **Vecsim Greedy degree** please run,
+For ensembling the **supervised algorithms** using **Node2vec** please run,
 
-**python tead_graph_greedydegree.py supervised**
-
-**python ranking_summaries.py unordered**
-
-The results will be generated in **ordered** folder
-
-
-------------------------------------------------------------------------------------
-
-
-
-
-For ensembling the **unsupervised domain independent algorithms** using **Vecsim Greedy degree** please run,
-
-**python tead_graph_greedydegree.py unsupervised_domain_independent**
-
-**python ranking_summaries.py unordered**
-
-The results will be generated in **ordered** folder
-
-
-------------------------------------------------------------------------------------
-
-
-
-For ensembling the **unsupervised_domain_specific algorithms** using **Vecsim Greedy Degree** please run,
-
-**python tead_graph_greedydegree.py unsupervised_domain_specific**
+**python tead_graph_node2vec.py supervised**
 
 **python ranking_summaries.py unordered**
 
@@ -946,9 +919,22 @@ The results will be generated in **ordered** folder
 
 
 
-For ensembling the **unsupervised algorithms** using **Vecsim Greedy Degree** please run,
+For ensembling the **unsupervised domain independent algorithms** using **Node2vec** please run,
 
-**python tead_graph_greedydegree.py unsupervised**
+**python tead_graph_node2vec.py unsupervised_domain_independent**
+
+**python ranking_summaries.py unordered**
+
+The results will be generated in **ordered** folder
+
+
+------------------------------------------------------------------------------------
+
+
+
+For ensembling the **unsupervised_domain_specific algorithms** using **Node2vec** please run,
+
+**python tead_graph_node2vec.py unsupervised_domain_specific**
 
 **python ranking_summaries.py unordered**
 
@@ -960,9 +946,9 @@ The results will be generated in **ordered** folder
 
 
 
-For ensembling the **Top 4 best performing summarization algorithms** using **Vecsim Greedy Degree** please run,
+For ensembling the **unsupervised algorithms** using **Node2vec** please run,
 
-**python tead_graph_greedydegree.py top_4**
+**python tead_graph_node2vec.py unsupervised**
 
 **python ranking_summaries.py unordered**
 
@@ -973,9 +959,23 @@ The results will be generated in **ordered** folder
 
 
 
-For ensembling the **all 15 summarization algorithms** using **Vecsim Greedy Degree** please run,
 
-**python tead_graph_greedydegree.py all_methods**
+For ensembling the **Top 4 best performing summarization algorithms** using **node2vec** please run,
+
+**python tead_graph_node2vec.py top_4**
+
+**python ranking_summaries.py unordered**
+
+The results will be generated in **ordered** folder
+
+
+------------------------------------------------------------------------------------
+
+
+
+For ensembling the **all 15 summarization algorithms** using **Node2vec** please run,
+
+**python tead_graph_node2vec.py all_methods**
 
 **python ranking_summaries.py unordered**
 
