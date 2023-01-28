@@ -778,7 +778,7 @@ The results will be generated in **ordered** folder
 
 For ensembling the **unsupervised algorithms** using **HITS HUB SCORE** please run,
 
-**python tead_graph_greedydegree.py unsupervised**
+**python tead_hitshub.py unsupervised**
 
 **python ranking_summaries.py unordered**
 
@@ -792,7 +792,7 @@ The results will be generated in **ordered** folder
 
 For ensembling the **Top 4 best performing summarization algorithms** using **HITS HUB SCORE** please run,
 
-**python tead_graph_greedydegree.py top_4**
+**python tead_hitshub.py top_4**
 
 **python ranking_summaries.py unordered**
 
@@ -805,7 +805,7 @@ The results will be generated in **ordered** folder
 
 For ensembling the **all 15 summarization algorithms** using **HITS HUB SCORE** please run,
 
-**python tead_graph_greedydegree.py all_methods**
+**python tead_hitshub.py all_methods**
 
 **python ranking_summaries.py unordered**
 
