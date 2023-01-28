@@ -2,7 +2,7 @@
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
-**DATASET for IN-Ext dataset **
+**DATASET for IN-Ext dataset**
 
 The 50 Original documents in the IN-Ext dataset is available in Full-Text/India.
 
