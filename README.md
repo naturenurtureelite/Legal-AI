@@ -51,7 +51,7 @@ The various ensembling techniques tried are- **Simple Voting, Borda Count, Recip
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-** All the codes are available in codes folder **
+** All the codes are available in **codes** folder **
 
 
 
