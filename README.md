@@ -1,6 +1,8 @@
 # Legal-AI
 
 
+All the datasets have been obtained from [https://github.com/Law-AI/summarization]
+
 ---------------------------------------------------------------------------------------------------------------------------------------------
 **DATASET for IN-Ext dataset**
 
