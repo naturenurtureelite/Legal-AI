@@ -3,6 +3,8 @@
 
 All the datasets have been obtained from [https://github.com/Law-AI/summarization]
 
+We have reused the IN-Ext and IN-Abs dataset from [https://github.com/Law-AI/summarization]
+
 ---------------------------------------------------------------------------------------------------------------------------------------------
 **DATASET for IN-Ext dataset**
 
