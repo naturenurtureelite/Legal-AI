@@ -54,9 +54,9 @@ def dict_sum(cnt, d):
 import os
 #summaries = ["This is one summary", "This is another summary"]
 #references = ["This is one reference", "This is another"]
-diri=os.listdir("/home/aniket/Aniket-India/vecsim_greedylength_allmethods")
-diri_expert1=os.listdir("/home/aniket/Aniket-India/Expert-Summaries/India/A1_processed/")
-diri_expert2=os.listdir("/home/aniket/Aniket-India/Expert-Summaries/India/A2_processed/")
+diri=os.listdir(sys.argv[1]+"/")
+diri_expert1=os.listdir("Expert-Summaries/India/A1_processed/")
+diri_expert2=os.listdir("Expert-Summaries/India/A2_processed/")
 l_p=[]
 l_r=[]
 l_f1=[]
@@ -64,10 +64,10 @@ ll_p=[]
 ll_r=[]
 ll_f1=[]
 for i in range(0,len(diri)):
-    fi1=open("/home/aniket/Aniket-India/vecsim_greedylength_allmethods/"+diri[i],"r+")
+    fi1=open(sys.argv[1]+"/"+diri[i],"r+")
     read1=remove_stopwords(fi1.read().replace('\n', ' '))
     print(read1)
-    fi2=open("/home/aniket/Aniket-India/Expert-Summaries/India/A1_processed/"+diri_expert1[i],"r+")
+    fi2=open("Expert-Summaries/India/A1_processed/"+diri_expert1[i],"r+")
     read2=remove_stopwords(fi2.read().replace('\n', ' '))
     read1=[read1]
     read2=[read2]
@@ -81,9 +81,9 @@ for i in range(0,len(diri)):
     ll_f1.append(rouge_dict["rouge"]['rouge_l_f_score'])
     print(rouge_dict["rouge"])
 for i in range(0,len(diri)):
-    fi1=open("/home/aniket/Aniket-India/vecsim_greedylength_allmethods/"+diri[i],"r+")
+    fi1=open(sys.argv[1]+"/"+diri[i],"r+")
     read1=remove_stopwords(fi1.read().replace('\n', ' '))
-    fi2=open("/home/aniket/Aniket-India/Expert-Summaries/India/A2_processed/"+diri_expert2[i],"r+")
+    fi2=open("Expert-Summaries/India/A2_processed/"+diri_expert2[i],"r+")
     read2=remove_stopwords(fi2.read().replace('\n', ' '))
     read1=[read1]
     read2=[read2]
