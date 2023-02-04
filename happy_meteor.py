@@ -41,15 +41,15 @@ import os
 
 #summaries = ["This is one summary", "This is another summary"]
 #references = ["This is one reference", "This is another"]
-diri=os.listdir("/home/aniket/Aniket-India/vecsim_greedylength_allmethods/")
-diri_expert1=os.listdir("/home/aniket/Aniket-India/Expert-Summaries/India/A1_processed/")
-diri_expert2=os.listdir("/home/aniket/Aniket-India/Expert-Summaries/India/A2_processed/")
+diri=os.listdir("vecsim_greedylength_allmethods/")
+diri_expert1=os.listdir("Expert-Summaries/India/A1_processed/")
+diri_expert2=os.listdir("Expert-Summaries/India/A2_processed/")
 l=[]
 ll=[]
 for i in range(0,len(diri)):
-    fi1=open("/home/aniket/Aniket-India/vecsim_greedylength_allmethods/"+diri[i],"r+")
+    fi1=open("vecsim_greedylength_allmethods/"+diri[i],"r+")
     read1=remove_stopwords(fi1.read().replace('\n', ' '))
-    fi2=open("/home/aniket/Aniket-India/Expert-Summaries/India/A1_processed/"+diri_expert1[i],"r+")
+    fi2=open("Expert-Summaries/India/A1_processed/"+diri_expert1[i],"r+")
     read2=remove_stopwords(fi2.read().replace('\n', ' '))
     read1=[read1]
     read2=[read2]
@@ -57,9 +57,9 @@ for i in range(0,len(diri)):
     l.append(rouge_dict['meteor'])
     print(rouge_dict['meteor'])
 for i in range(0,len(diri)):
-    fi1=open("/home/aniket/Aniket-India/vecsim_greedylength_allmethods/"+diri[i],"r+")
+    fi1=open("vecsim_greedylength_allmethods/"+diri[i],"r+")
     read1=remove_stopwords(fi1.read().replace('\n', ' '))
-    fi2=open("/home/aniket/Aniket-India/Expert-Summaries/India/A2_processed/"+diri_expert2[i],"r+")
+    fi2=open("Expert-Summaries/India/A2_processed/"+diri_expert2[i],"r+")
     read2=remove_stopwords(fi2.read().replace('\n', ' '))
     read1=[read1]
     read2=[read2]
