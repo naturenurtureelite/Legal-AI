@@ -6,7 +6,7 @@ All the datasets have been obtained from [https://github.com/Law-AI/summarizatio
 We have reused the IN-Ext and IN-Abs dataset from [https://github.com/Law-AI/summarization]
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-All the datasets are available in dataset folder. In addition to the original documents and the expert written gold standard summaries we have additionally provided the outputs of the base algorithms in the dataset folder
+All the datasets are available in **dataset** folder. In addition to the original documents and the expert written gold standard summaries we have additionally provided the outputs of the base algorithms in the **dataset** folder
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
