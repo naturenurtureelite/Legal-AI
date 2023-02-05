@@ -1,10 +1,7 @@
-@software{Lisa_My_Research_Software_2017,
-  author = {Lisa, Mona and Bot, Hew},
-  doi = {10.5281/zenodo.1234},
-  month = {12},
-  title = {{My Research Software}},
-  url = {https://github.com/github/linguist},
-  version = {2.0.4},
-  year = {2017}
+@article{deroy2023ensemble,
+  title={Ensemble methods for improving extractive summarization of legal case judgements},
+  author={Deroy, Aniket and Ghosh, Kripabandhu and Ghosh, Saptarshi},
+  booktitle={Artificial Intelligence and Law},
+  year={2023},
+  organization={Springer}
 }
-
