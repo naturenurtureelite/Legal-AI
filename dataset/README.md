@@ -24,6 +24,9 @@ The Expert written gold standard summaries is available in summary.
 
 There is one abstractive gold standard summary corresponding to every document.
 
+
+The Algorithm generated summaries is available at Algo-Summaries2.
+
 The first column in Stats-IN-test.txt gives filename, second column gives no of words in original document, third column gives no of words in the expert written summary.
 
 
